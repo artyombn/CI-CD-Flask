@@ -16,6 +16,12 @@ def get_items():
 
 @items_app.route("/<int:item_id>/")
 def get_item_by_id(item_id):
+    val = 50
+    res = val / item_id
+    print("res:", res)
     return {
-        "data": {"item_id": item_id},
+        "data": {
+            "item_id": item_id,
+            "res": res,
+        }
     }

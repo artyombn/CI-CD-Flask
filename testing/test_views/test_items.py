@@ -4,3 +4,12 @@ def test_get_items(client):
     assert response.json == {
         "items": ["a", "b"],
     }
+
+def test_get_item_by_id(client):
+    response = client.get('/items/10/')
+    assert response.json == {
+        "data": {
+            "item_id": 10,
+            "res": 5,
+        }
+    }

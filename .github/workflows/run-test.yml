@@ -24,6 +24,6 @@ jobs:
         poetry config virtualenvs.create false --local
         poetry install --sync
         pylint --version
-    - name: Test with pytest
+    - name: Pytest with COVER (80%)
       run: |
-        pytest
+        pytest -s --cov --cov-report html --cov-fail-under 80
