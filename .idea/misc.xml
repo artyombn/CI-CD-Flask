@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (OTUS)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (CI-CD-Flask)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (ci_cd_flask)" project-jdk-type="Python SDK" />
 </project>
