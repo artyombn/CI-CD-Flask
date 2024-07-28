@@ -1,5 +1,3 @@
-from urllib import request
-
 from flask import (
     Blueprint,
     render_template,
@@ -8,12 +6,14 @@ from flask import (
     redirect,
 )
 
-from views.products.crud import products_storage as storage
 
 from werkzeug.exceptions import (
     NotFound,
     BadRequest,
 )
+
+from .crud import products_storage as storage
+
 
 products_app = Blueprint(
     "products_app",
