@@ -5,6 +5,4 @@ package-mode = false
 python = ">=3.10,<3.12"
 flask = "*"
 pylint = "*"
-
-[tool.poetry.dev-dependencies]
-pytest = "^8.3.2"
+pytest = "*"

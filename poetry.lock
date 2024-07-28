@@ -379,4 +379,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.12"
-content-hash = "30a48518c76be62cd07254dd6f9196d626d33d5fd45ce14dfdf4bc959fdb8a85"
+content-hash = "9257917a24841a1f0ac914c20f4f5baeff3ac3e43b32bb5c264fb068489126fe"
